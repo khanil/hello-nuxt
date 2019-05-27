@@ -1,0 +1,28 @@
+{
+  "files.exclude": {
+    "node_modules": true
+  },
+  "editor.formatOnSave": true,
+  "eslint.validate": [
+    {
+      "language": "vue",
+      "autoFix": true
+    },
+    {
+      "language": "html",
+      "autoFix": true
+    },
+    {
+      "language": "typescript",
+      "autoFix": true
+    },
+    {
+      "language": "javascript",
+      "autoFix": true
+    }
+  ],
+  "prettier.eslintIntegration": true,
+  "vetur.format.defaultFormatter.js": "vscode-typescript",
+  "vetur.format.defaultFormatter.html": "prettier",
+  "editor.rulers": [100]
+}
